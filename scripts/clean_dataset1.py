@@ -4,7 +4,7 @@ print("Starting cleaning process for 'dataset1.csv'...")
 
 # Load the original dataset from the current directory
 # Assuming 'dataset1.csv' is in the same folder as this script
-df1 = pd.read_csv('dataset1.csv')
+df1 = pd.read_csv('../data/dataset1.csv')
 
 # --- Cleaning Steps ---
 
